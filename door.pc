@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: doorlib
+Description: A library for bbs doors
+Requires: 
+Version: 0.9.0
+Libs: -L${libdir} -ldoorlib
+Cflags: -I${includedir}

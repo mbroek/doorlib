@@ -1,0 +1,10 @@
+    -= Door library v0.9.0 for Unix =-
+This is a general door library for native Unix
+doors. This library supports the DOS formatted
+door.sys file.
+OS: Linux, NetBSD and FreeBSD.
+Originating sites 2:280/2802@fidonet and
+http://mbse.sourceforge.net/
+Copyright by Michiel Broek.
+Released under the terms of the GNU Public
+License.

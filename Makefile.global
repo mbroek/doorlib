@@ -1,0 +1,25 @@
+# Compile-time configuration for doorlib for Unix.
+# $Id$
+
+VERSION		= 0.9.0
+PACKAGE		= doorlib
+
+# for make install, where to put binaries and what owner to set
+SUBDIRS		= src
+PREFIX		= /usr
+BINDIR		= /usr/bin
+ETCDIR		= /usr/etc
+DOCDIR		= /usr/doc
+LIBDIR		= /usr/lib
+INCDIR		= /usr/include
+
+RANLIB		= ranlib
+SHELL		= /bin/sh
+ECHO		= echo -e
+CC		= gcc
+TAR		= tar
+LN_S		= ln -s
+
+CFLAGS		= -O2 -Wall -Wshadow -Wwrite-strings -Wstrict-prototypes -pipe
+LIBS		= 
+
