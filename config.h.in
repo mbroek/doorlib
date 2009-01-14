@@ -1,0 +1,23 @@
+/* config.h.in.  */
+/* $Id$ */
+
+
+#undef SHORTRIGHT
+#undef COPYRIGHT
+#undef VERSION
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef mode_t
+
+/* Define to `long' if <sys/types.h> does not define. */
+#undef off_t
+
+/* Define to `unsigned' if <sys/types.h> does not define. */
+#undef size_t
+

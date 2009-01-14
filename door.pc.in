@@ -1,0 +1,13 @@
+# $Id$
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: doorlib
+Description: A library for bbs doors
+Requires: 
+Version: @VERSION@
+Libs: -L${libdir} -ldoor
+Cflags: -I${includedir}

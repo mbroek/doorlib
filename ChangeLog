@@ -1,0 +1,40 @@
+$Id$
+
+v0.9.0		21-Feb-2003.
+
+	Initial release.
+
+
+v0.9.1		23-Feb-2003.
+
+	Moved everything to /usr/local by default.
+
+
+v0.9.2		31-Aug-2003.
+
+	The door_waitenter function now needs the message to display as a
+	parameter so that you can use your own language for this prompt.
+	Updated the API in the README.
+	The door_loginit function now returns FALSE if the logfile can't be
+	created or is not writeable.
+
+
+v0.9.3		21-Dec-2003
+
+	Changed configure script to allow compile for debugging.
+	Updated source header parts.
+	Updated Makefiles to allow install in $DESTDIR for package building.
+	Fixed a memory leaks in parse.c and doorsys.c
+
+
+v0.9.4		03-Sep-2005
+
+	Secured sprintf functions to snprintf to better protect against buffer
+	overflows.
+
+
+v0.9.5		25-Jun-2006
+
+	Changed some timing functions so that it compiles on 64 bit systems
+	with gcc > 4.0.
+
