@@ -1,5 +1,5 @@
 dnl Process this file with autoconf to produce a configure script.
-dnl $Id$
+dnl $Id: configure.in,v 1.10 2006/06/26 18:08:56 mbse Exp $
 
 AC_INIT(src/door.h)
 AM_CONFIG_HEADER(config.h)
@@ -11,8 +11,8 @@ dnl General settings for doorlib
 dnl After changing the version number, run autoconf!
 dnl
 PACKAGE="doorlib"
-VERSION="0.9.5"
-COPYRIGHT="Copyright (C) 2003-2006 Michiel Broek, All Rights Reserved"
+VERSION="0.9.6"
+COPYRIGHT="Copyright (C) 2003-2009 Michiel Broek, All Rights Reserved"
 AC_SUBST(PACKAGE)
 AC_SUBST(VERSION)
 AC_SUBST(LIBVERS)
@@ -104,7 +104,7 @@ if test x$ac_cv_c_compiler_gnu = xyes ; then
 AC_MSG_RESULT([
   Installation directories :
 
-    Library directory : ........... ${prefix}/lib
+    Library directory : ........... ${libdir}
     Include directory : ........... ${prefix}/include
     Pkgconfig directory : ......... ${pkgdir}
 ])

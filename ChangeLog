@@ -1,4 +1,4 @@
-$Id$
+
 
 v0.9.0		21-Feb-2003.
 
@@ -37,4 +37,9 @@ v0.9.5		25-Jun-2006
 
 	Changed some timing functions so that it compiles on 64 bit systems
 	with gcc > 4.0.
+
+
+v0.9.6		12-Jun-2009
+
+	Changed configure script to do the right thing on a multilib system.
 
